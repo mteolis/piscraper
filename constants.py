@@ -7,15 +7,9 @@ PRICE_KEY = 'PRICE'
 RAM_KEY = 'RAM'
 NAME_KEY = 'NAME'
 
-CANAKIT_KEY = 'canakit.com'
 CANADA_NEWARK_KEY = 'canada.newark.com'
 DIGIKEY_KEY = 'digikey.ca'
 PI_URLS = {
-    CANAKIT_KEY: [
-        'https://www.canakit.com/raspberry-pi-4-2gb.html',
-        'https://www.canakit.com/raspberry-pi-4-4gb.html',
-        'https://www.canakit.com/raspberry-pi-4-8gb.html'
-    ],
     CANADA_NEWARK_KEY: [
         'https://canada.newark.com/raspberry-pi/rpi4-modbp-8gb/raspberry-pi-4-model-b-8gb/dp/64AH2041',
         'https://canada.newark.com/raspberry-pi/rpi4-modbp-4gb/raspberry-pi-4-model-b-4gb-rohs/dp/02AH3164',
