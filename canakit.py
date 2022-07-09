@@ -30,7 +30,8 @@ class Canakit():
         self.notify[constants.URL_KEY] = url
         self.notify[constants.NAME_KEY] = self.get_name(tree)
         self.notify[constants.RAM_KEY] = self.get_ram(tree)
-        # self.notify[constants.PRICE_KEY] = self.get_price(tree) TODO: fix fetching price
+        # self.notify[constants.PRICE_KEY] = self.get_price(tree)
+        # TODO: fix fetching price
         print(f'notify: {self.notify}')
 
   def get_add_to_cart_button(self, tree):
